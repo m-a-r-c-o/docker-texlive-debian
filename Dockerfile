@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:testing
 MAINTAINER Marco Cyriacks <marco@cyriacks.net>
 
 RUN apt-get update -y && apt-get upgrade -y
