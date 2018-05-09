@@ -3,7 +3,7 @@ MAINTAINER Marco Cyriacks <marco@cyriacks.net>
 
 RUN dnf upgrade -y
 RUN dnf install -y texlive-scheme-full
-RUN dnf install -y doxygen graphviz make
+RUN dnf install -y git doxygen graphviz make
 
 # Set correct timezone
 ENV TZ=Europe/Berlin
